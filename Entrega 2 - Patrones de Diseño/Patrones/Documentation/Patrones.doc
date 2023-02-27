@@ -1,0 +1,33 @@
+                    //--------------------PATRONES DE DISEÑO MAS CONOCIDOS--------------------//
+
+//---Patrón Singleton:---//
+
+    Asegura que una clase tenga solo una instancia en todo el programa, y que cualquier otra instancia de esa clase 
+se refiera a la misma única instancia.
+    Se utiliza cuando solo se necesita una única instancia de una clase en todo el programa, por ejemplo, en la conexión 
+a una base de datos.
+    Caso de uso: Un ejemplo de uso del patrón Singleton es la clase java.lang.Runtime, que representa el entorno en 
+tiempo de ejecución de Java. En este caso, solo necesitamos una única instancia de esta clase en todo el programa.
+
+
+//---Patrón Factory:---//
+
+    Proporciona una interfaz para crear objetos en una superclase, pero permite que las subclases alteren el tipo de
+objetos que se crean.
+    Se utiliza cuando se necesita encapsular la creación de objetos y hacer que el código que los usa no dependa 
+directamente de su creación.
+    Caso de uso: Un ejemplo de uso del patrón Factory es la clase java.util.Calendar, que utiliza un método getInstance() 
+para crear una instancia de un calendario. La implementación de esta instancia puede variar según el calendario que 
+se quiera utilizar (gregoriano, lunar, etc.), pero el código que usa la instancia no necesita saber la diferencia.
+
+
+//---Patrón Observer:---//
+
+    Define una relación uno a muchos entre objetos, de tal forma que cuando un objeto cambia su estado, notifica y 
+actualiza automáticamente a todos los objetos que dependen de él.
+    Se utiliza cuando se necesita notificar automáticamente a otros objetos cuando se produce un cambio en uno de ellos,
+evitando la dependencia directa entre ellos.
+    Caso de uso: Un ejemplo de uso del patrón Observer es la clase java.util.Observable y la interfaz java.util.Observer, 
+que permiten a un objeto observado (Observable) notificar a sus observadores (Observer) cuando cambia su estado. 
+Por ejemplo, en una aplicación de gráficos, cuando un objeto cambia de posición, se puede notificar a todos los demás 
+objetos que dependen de él (como líneas conectadas, texto asociado, etc.) para que se actualicen automáticamente.
