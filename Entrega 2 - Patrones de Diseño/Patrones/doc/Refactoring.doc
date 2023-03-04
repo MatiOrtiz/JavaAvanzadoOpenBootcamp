@@ -1,0 +1,5 @@
+    No refactoricé ninguno de los dos proyectos hechos hasta ahora porque no encontré específicamente algo que 
+se pueda refactorizar demasiado. Además no estoy de acuerdo con algunos casos de refactorización que se muestran en la 
+clase ya que a veces se pierde legibilidad del código; cuando no solo se trata de escribir la menor cantidad de lineas
+posibles sino de mantener un margen de legibilidad para que el código pueda ser comprendido lo mas rápidamente por cualquiera
+que lo lea. Por lo tanto, hay que buscar un balance entre ambas cosas y no solo buscar ahorrar lineas.
