@@ -1,0 +1,6 @@
+    Modifiqué este proyecto con el patrón state porque tenía realizada la aplicación configuración, la cual
+se podía adaptar a un dispositivo como un celular, por lo tanto esto me permitió plantear el cambiar las 
+propiedades de la configuración mediante una serie de pasos: desbloquear el celular, abrir la configuración, editar las propiedades.
+    Luego de diferenciar esta serie de pasos, identifiqué un flujo de trabajo que siempre se respetaría, lo que me permitió aplicar
+el patrón mencionado, para lograr que se lleve a cabo cada acción unicamente en el momento previamente especificado y por lo tanto cumplir 
+con la funcionalidad del patrón.
