@@ -1,5 +1,7 @@
 package Singleton;
 
+import State.Configuracion;
+
 public class Main {
 
 	public static void main(String[] args) {
