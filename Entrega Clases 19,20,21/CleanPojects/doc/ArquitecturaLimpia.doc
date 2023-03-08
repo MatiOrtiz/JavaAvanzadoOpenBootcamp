@@ -1,25 +1,42 @@
-La arquitectura limpia (Clean Architecture) es un enfoque de diseño de software que enfatiza la separación de preocupaciones y la independencia de las tecnologías específicas. Algunas de sus características principales son:
+La arquitectura limpia es un enfoque de diseño de software que enfatiza la separación de preocupaciones y la independencia 
+de las tecnologías específicas. Algunas de sus características principales son:
 
-Separación de capas: la arquitectura limpia propone dividir el sistema en capas, cada una de las cuales es responsable de una parte específica de la lógica de negocio. Las capas se comunican a través de interfaces bien definidas, lo que facilita la prueba y el mantenimiento del sistema.
+     Separación de capas: la arquitectura limpia propone dividir el sistema en capas, cada una de las cuales 
+    es responsable de una parte específica de la lógica de negocio. Las capas se comunican a través de interfaces 
+    bien definidas, lo que facilita la prueba y el mantenimiento del sistema.
 
-Independencia de frameworks y tecnologías: la arquitectura limpia sugiere que los detalles de la tecnología (por ejemplo, los frameworks y las bibliotecas específicas) se mantengan en la capa más externa del sistema, mientras que las capas internas se centran en la lógica de negocio. Esto permite que el sistema sea más flexible y fácil de actualizar, ya que se pueden cambiar las tecnologías sin afectar la lógica de negocio.
+     Independencia de frameworks y tecnologías: la arquitectura limpia sugiere que los detalles de la tecnología 
+    (por ejemplo, los frameworks y las bibliotecas específicas) se mantengan en la capa más externa del sistema, 
+    mientras que las capas internas se centran en la lógica de negocio. Esto permite que el sistema sea más flexible y 
+    fácil de actualizar, ya que se pueden cambiar las tecnologías sin afectar la lógica de negocio.
 
-Principios SOLID: la arquitectura limpia se basa en los principios SOLID de diseño de software, que promueven la flexibilidad, la extensibilidad y la facilidad de mantenimiento del sistema.
+     Principios SOLID: la arquitectura limpia se basa en los principios SOLID de diseño de software, 
+    que promueven la flexibilidad, la extensibilidad y la facilidad de mantenimiento del sistema.
 
-Pruebas automatizadas: la arquitectura limpia promueve la escritura de pruebas automatizadas para garantizar que el sistema funcione correctamente y se mantenga libre de errores.
+     Pruebas automatizadas: la arquitectura limpia promueve la escritura de pruebas automatizadas para garantizar
+    que el sistema funcione correctamente y se mantenga libre de errores.
 
-La arquitectura limpia se puede utilizar en cualquier proyecto de software que requiera una alta flexibilidad y mantenibilidad. Sin embargo, es especialmente útil en proyectos grandes y complejos, donde la escalabilidad y la facilidad de mantenimiento son críticas.
+
+La arquitectura limpia se puede utilizar en cualquier proyecto de software que requiera una alta flexibilidad y mantenibilidad. 
+Sin embargo, es especialmente útil en proyectos grandes y complejos, donde la escalabilidad y 
+la facilidad de mantenimiento son críticas.
 
 Para aplicar la arquitectura limpia en un proyecto, se puede seguir el siguiente proceso:
 
-Definir las capas del sistema: identificar las diferentes partes del sistema y definir las capas que serán necesarias para implementarlas.
+    Definir las capas del sistema: identificar las diferentes partes del sistema y definir las capas que serán 
+    necesarias para implementarlas.
 
-Definir las interfaces entre capas: establecer las interfaces entre las diferentes capas del sistema, asegurándose de que sean claras y bien definidas.
+    Definir las interfaces entre capas: establecer las interfaces entre las diferentes capas del sistema, 
+    asegurándose de que sean claras y bien definidas.
 
-Implementar las capas internas: implementar las capas internas del sistema, centrándose en la lógica de negocio y asegurándose de que estén bien separadas de los detalles de la tecnología.
+    Implementar las capas internas: implementar las capas internas del sistema, centrándose en la lógica de negocio y 
+    asegurándose de que estén bien separadas de los detalles de la tecnología.
 
-Implementar las capas externas: implementar las capas más externas del sistema, centrándose en los detalles de la tecnología y asegurándose de que se comuniquen correctamente con las capas internas.
+    Implementar las capas externas: implementar las capas más externas del sistema, centrándose en los detalles de 
+    la tecnología y asegurándose de que se comuniquen correctamente con las capas internas.
 
-Escribir pruebas automatizadas: escribir pruebas automatizadas para garantizar que el sistema funcione correctamente y se mantenga libre de errores.
+    Escribir pruebas automatizadas: escribir pruebas automatizadas para garantizar que el sistema funcione correctamente 
+    y se mantenga libre de errores.
 
-Refactorizar el código: asegurarse de que el código esté limpio y bien estructurado, y refactorizarlo según sea necesario para mejorar su calidad y mantenibilidad.
+    Refactorizar el código: asegurarse de que el código esté limpio y bien estructurado, y refactorizarlo según sea 
+    necesario para mejorar su calidad y mantenibilidad.
