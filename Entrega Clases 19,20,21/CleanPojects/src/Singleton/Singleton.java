@@ -2,37 +2,21 @@ package Singleton;
 
 public class Singleton {
     
-    //Atributos
-    private static Singleton singleton;
-    private int cont;
-
-    /**
-     * Crea una instancia de tipo Singleton
-     */
-    private Singleton(){};
-
-    //Metodos
-    /**
-     * Consulta la instancia del atributo singleton
-     * @return una nueva instancia de tipo Singleton si el atributo es nulo, 
-     * sino retorna el atributo
-     */
+    private static Singleton instance;
+    private int count;
+    
+    private Singleton() {}
+    
     public static Singleton getInstance() {
-        if(singleton==null)
-            return new Singleton();
-        return singleton;
+        return instance == null ? instance = new Singleton() : instance;
     }
-
-    /**
-     * Define el valor del atributo cont
-     * @param cont valor entero a setearle al atributo cont
-     */
-    public void setCont(int cont) {
-        this.cont= cont;
+    
+    public void setCount(int count) {
+        this.count = count;
     }
-
-    public int getCont() {
-        return cont;
+    
+    public int getCount() {
+        return count;
     }
     
 }
