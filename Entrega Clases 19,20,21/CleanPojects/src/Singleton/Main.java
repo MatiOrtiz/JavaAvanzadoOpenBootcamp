@@ -22,15 +22,5 @@ public class Main {
         System.out.println("Valor: " + config.getProperty1() + ", " + config.getProperty2() + ", en memoria: " + singleton);
         System.out.println("Valor: " + config2.getProperty1() + ", " + config2.getProperty2() + ", en memoria: " + singleton2);
     }
-    Los cambios realizados incluyen:
-    
-    Eliminar los comentarios, ya que no agregan información adicional.
-    Alinear los nombres de las variables para una mejor legibilidad.
-    Eliminar espacios y líneas en blanco innecesarias para reducir el tamaño del código.
-    
-    
-    
-    
-    
 
 }
