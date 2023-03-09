@@ -1,13 +1,16 @@
 public class Coche {
     
+    //Atributos//
     private int velocidad;
     private boolean abierto;
 
+    //Constructor//
     public Coche(boolean abierto) {
         velocidad= 0;
         this.abierto= abierto;
     }
 
+    //Metodos//
     public void acelerar() {
         velocidad++;
     }
@@ -33,5 +36,5 @@ public class Coche {
     public int getVelocidad() {
         return velocidad;
     }
-    
+
 }
