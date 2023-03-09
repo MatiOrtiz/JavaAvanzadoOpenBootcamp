@@ -1,13 +1,13 @@
-public class Coche {
+public abstract class Coche {
     
     //Atributos//
     private int velocidad;
-    private boolean abierto;
+    private String tipo;
 
     //Constructor//
-    public Coche(boolean abierto) {
+    public Coche(String tipo) {
         velocidad= 0;
-        this.abierto= abierto;
+        this.tipo= tipo;
     }
 
     //Metodos//
@@ -19,22 +19,12 @@ public class Coche {
         velocidad--;
     }
 
-    public void abrirPuertas() {
-        if(!abierto)
-            abierto= true;
-    }
-
-    public void cerrarPuertas() {
-        if(abierto)
-            abierto= false;
-    }
-
-    public boolean getAbierto() {
-        return abierto;
-    }
-
     public int getVelocidad() {
         return velocidad;
+    }
+
+    public String getTipo() {
+        return tipo;
     }
 
 }
