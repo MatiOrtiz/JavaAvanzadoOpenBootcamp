@@ -27,4 +27,6 @@ public abstract class Coche {
         return tipo;
     }
 
+    public abstract boolean getBateria();
+    public abstract boolean getCombustible();
 }
